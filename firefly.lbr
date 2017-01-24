@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -5174,10 +5174,10 @@ type V526-0, grid 2.5 mm</description>
 <pad name="3" x="-1.27" y="-0.635" drill="0.7" diameter="1"/>
 <pad name="1" x="-2.54" y="-0.635" drill="0.7" diameter="1" shape="square"/>
 <text x="-2" y="2" size="1.27" layer="21">&gt;Name</text>
-<wire x1="-3.7" y1="1.7" x2="3.7" y2="1.7" width="0.127" layer="21"/>
-<wire x1="3.7" y1="1.7" x2="3.7" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-1.7" x2="-3.7" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="-1.7" x2="-3.7" y2="1.7" width="0.127" layer="21"/>
+<wire x1="-5.275" y1="1.6" x2="5.275" y2="1.6" width="0.127" layer="21"/>
+<wire x1="5.275" y1="1.6" x2="5.275" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="5.275" y1="-1.6" x2="-5.275" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-5.275" y1="-1.6" x2="-5.275" y2="1.6" width="0.127" layer="21"/>
 </package>
 <package name="S-PWQFN-N16">
 <smd name="1" x="-0.75" y="-1.475" dx="0.28" dy="0.85" layer="1"/>
@@ -5775,11 +5775,11 @@ type V526-0, grid 2.5 mm</description>
 <pad name="15" x="2.54" y="-1.27" drill="1.102359375"/>
 <pad name="17" x="5.08" y="-1.27" drill="1.102359375"/>
 <pad name="19" x="7.62" y="-1.27" drill="1.102359375"/>
-<text x="-18.415" y="-3.175" size="1.27" layer="25" rot="R90">&gt;Name</text>
-<wire x1="-17.78" y1="3.81" x2="17.78" y2="3.81" width="0.127" layer="21"/>
-<wire x1="17.78" y1="3.81" x2="17.78" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="17.78" y1="-3.81" x2="-17.78" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-17.78" y1="-3.81" x2="-17.78" y2="3.81" width="0.127" layer="21"/>
+<text x="-17.315" y="-1.175" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<wire x1="-19" y1="3.81" x2="19" y2="3.81" width="0.127" layer="21"/>
+<wire x1="19" y1="3.81" x2="19" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="19" y1="-3.81" x2="-19" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-19" y1="-3.81" x2="-19" y2="3.81" width="0.127" layer="21"/>
 <pad name="21" x="10.16" y="-1.27" drill="1.102359375"/>
 <pad name="23" x="12.7" y="-1.27" drill="1.102359375"/>
 <pad name="25" x="15.24" y="-1.27" drill="1.102359375"/>
@@ -5796,6 +5796,7 @@ type V526-0, grid 2.5 mm</description>
 <pad name="24" x="12.7" y="1.27" drill="1.102359375"/>
 <pad name="26" x="15.24" y="1.27" drill="1.102359375"/>
 <pad name="2" x="-15.24" y="1.27" drill="1.102359375"/>
+<text x="-17.4" y="-3.1" size="1.27" layer="21">1</text>
 </package>
 <package name="LQFP-64">
 <smd name="1" x="-5.75" y="3.75" dx="1.2" dy="0.3" layer="1"/>
@@ -6192,6 +6193,94 @@ type V526-0, grid 2.5 mm</description>
 <smd name="5" x="1.5" y="0.95" dx="1.4" dy="0.6" layer="1"/>
 <text x="-1.155" y="1.675" size="1.27" layer="25">&gt;NAME</text>
 <circle x="-0.4" y="1" radius="0.22360625" width="0.127" layer="21"/>
+</package>
+<package name="HVQFN20">
+<smd name="18" x="0" y="2.15" dx="0.27" dy="0.9" layer="1"/>
+<smd name="17" x="0.5" y="2.15" dx="0.27" dy="0.9" layer="1"/>
+<smd name="16" x="1" y="2.15" dx="0.27" dy="0.9" layer="1"/>
+<smd name="19" x="-0.5" y="2.15" dx="0.27" dy="0.9" layer="1"/>
+<smd name="20" x="-1" y="2.15" dx="0.27" dy="0.9" layer="1"/>
+<smd name="3" x="-2.15" y="0" dx="0.27" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="-2.15" y="0.5" dx="0.27" dy="0.9" layer="1" rot="R90"/>
+<smd name="1" x="-2.15" y="1" dx="0.27" dy="0.9" layer="1" rot="R90"/>
+<smd name="4" x="-2.15" y="-0.5" dx="0.27" dy="0.9" layer="1" rot="R90"/>
+<smd name="5" x="-2.15" y="-1" dx="0.27" dy="0.9" layer="1" rot="R90"/>
+<smd name="8" x="0" y="-2.15" dx="0.27" dy="0.9" layer="1" rot="R180"/>
+<smd name="7" x="-0.5" y="-2.15" dx="0.27" dy="0.9" layer="1" rot="R180"/>
+<smd name="6" x="-1" y="-2.15" dx="0.27" dy="0.9" layer="1" rot="R180"/>
+<smd name="9" x="0.5" y="-2.15" dx="0.27" dy="0.9" layer="1" rot="R180"/>
+<smd name="10" x="1" y="-2.15" dx="0.27" dy="0.9" layer="1" rot="R180"/>
+<smd name="13" x="2.15" y="0" dx="0.27" dy="0.9" layer="1" rot="R270"/>
+<smd name="12" x="2.15" y="-0.5" dx="0.27" dy="0.9" layer="1" rot="R270"/>
+<smd name="11" x="2.15" y="-1" dx="0.27" dy="0.9" layer="1" rot="R270"/>
+<smd name="14" x="2.15" y="0.5" dx="0.27" dy="0.9" layer="1" rot="R270"/>
+<smd name="15" x="2.15" y="1" dx="0.27" dy="0.9" layer="1" rot="R270"/>
+<smd name="PGND" x="0" y="0" dx="2.8" dy="2.8" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-0.9" y1="0.2" x2="-0.2" y2="0.9" layer="29"/>
+<rectangle x1="0.2" y1="0.2" x2="0.9" y2="0.9" layer="29"/>
+<rectangle x1="0.2" y1="-0.9" x2="0.9" y2="-0.2" layer="29"/>
+<rectangle x1="-0.9" y1="-0.9" x2="-0.2" y2="-0.2" layer="29"/>
+<rectangle x1="-0.9" y1="0.2" x2="-0.2" y2="0.9" layer="31"/>
+<rectangle x1="0.2" y1="0.2" x2="0.9" y2="0.9" layer="31"/>
+<rectangle x1="0.2" y1="-0.9" x2="0.9" y2="-0.2" layer="31"/>
+<rectangle x1="-0.9" y1="-0.9" x2="-0.2" y2="-0.2" layer="31"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
+<circle x="-1.7" y="1.7" radius="0.14141875" width="0.127" layer="51"/>
+</package>
+<package name="SUPPORT-2MM">
+<circle x="0" y="0" radius="1" width="0.127" layer="37"/>
+</package>
+<package name="LED_TEST_POINT-3.25MM">
+<circle x="0" y="0" radius="1.625" width="0.127" layer="37"/>
+</package>
+<package name="10118193">
+<smd name="3" x="0" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="4" x="0.65" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="5" x="1.3" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="2" x="-0.65" y="0" dx="0.4" dy="1.35" layer="1"/>
+<smd name="1" x="-1.3" y="0" dx="0.4" dy="1.35" layer="1"/>
+<wire x1="-3.95" y1="-4.125" x2="3.95" y2="-4.125" width="0.127" layer="21"/>
+<text x="-1.4" y="-3.77" size="0.5" layer="49">pcb edge</text>
+<pad name="PA" x="-3.3" y="-2.675" drill="1.2"/>
+<pad name="PB" x="3.3" y="-2.675" drill="1.2" thermals="no"/>
+<wire x1="-4" y1="0.7" x2="4" y2="0.7" width="0.127" layer="21"/>
+<wire x1="4" y1="0.7" x2="4" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="4" y1="-4.8" x2="-4" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-4" y1="-4.8" x2="-4" y2="0.7" width="0.127" layer="21"/>
+<text x="-1.1" y="-3" size="1.27" layer="25">&gt;Name</text>
+</package>
+<package name="PBS8MTRES">
+<smd name="1" x="0" y="-3.685" dx="2.03" dy="3.81" layer="1"/>
+<smd name="2" x="0" y="3.685" dx="2.03" dy="3.81" layer="1"/>
+<smd name="P$3" x="-7.6" y="-3" dx="3.25" dy="3.81" layer="1"/>
+<smd name="P$4" x="-7.6" y="3" dx="3.25" dy="3.81" layer="1"/>
+<wire x1="1" y1="4.2" x2="-9.3" y2="4.2" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="4.2" x2="-9.3" y2="3" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="3" x2="-13.7" y2="3" width="0.127" layer="21"/>
+<wire x1="-13.7" y1="3" x2="-13.7" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-13.7" y1="1.3" x2="-19.3" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-19.3" y1="1.3" x2="-19.3" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-19.3" y1="-1.3" x2="-13.7" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-13.7" y1="-1.3" x2="-13.7" y2="-3" width="0.127" layer="21"/>
+<wire x1="-13.7" y1="-3" x2="-9.3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="-3" x2="-9.3" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="-4.2" x2="1" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="1" y1="-4.2" x2="1" y2="4.2" width="0.127" layer="21"/>
+<text x="-3.81" y="0" size="1.27" layer="25">&gt;Name</text>
+</package>
+<package name="RACON8">
+<smd name="A1" x="-4.9" y="2.25" dx="2.2" dy="1.4" layer="1"/>
+<smd name="B1" x="-4.9" y="-2.25" dx="2.2" dy="1.4" layer="1"/>
+<smd name="A2" x="4.9" y="2.25" dx="2.2" dy="1.4" layer="1"/>
+<smd name="B2" x="4.9" y="-2.25" dx="2.2" dy="1.4" layer="1"/>
+<wire x1="-4.2" y1="4.2" x2="4.2" y2="4.2" width="0.127" layer="21"/>
+<wire x1="4.2" y1="4.2" x2="4.2" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="4.2" y1="-4.2" x2="-4.2" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="4.2" width="0.127" layer="21"/>
+<text x="4.4" y="-0.5" size="1.27" layer="25">&gt;Name</text>
 </package>
 </packages>
 <symbols>
@@ -8365,6 +8454,54 @@ type V526-0, grid 2.5 mm</description>
 <pin name="IN" x="-15.24" y="2.54" length="middle"/>
 <pin name="OUT" x="15.24" y="2.54" length="middle" rot="R180"/>
 <text x="-10.16" y="6.35" size="1.778" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="PTN5100">
+<pin name="DBGACC_FOUND" x="-27.94" y="-15.24" length="middle"/>
+<pin name="SPI_CS" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="VCONN_IN" x="-27.94" y="-20.32" length="middle"/>
+<pin name="CC_ORIENT" x="-27.94" y="-5.08" length="middle"/>
+<pin name="CC_CTRL1" x="-27.94" y="-10.16" length="middle"/>
+<pin name="CC1" x="-27.94" y="5.08" length="middle"/>
+<pin name="CC2" x="-27.94" y="0" length="middle"/>
+<pin name="EN_USBSRC" x="-5.08" y="38.1" length="middle" rot="R270"/>
+<pin name="VBUS" x="-27.94" y="15.24" length="middle"/>
+<pin name="EN_USBFET1" x="0" y="38.1" length="middle" rot="R270"/>
+<pin name="SPI_CLK_I2C_SCL" x="27.94" y="-15.24" length="middle" rot="R180"/>
+<pin name="SPI_MOSI_I2C_SDA" x="27.94" y="-10.16" length="middle" rot="R180"/>
+<pin name="INT_N" x="27.94" y="5.08" length="middle" rot="R180"/>
+<pin name="SLV_ADDR" x="27.94" y="-20.32" length="middle" rot="R180"/>
+<pin name="VDD" x="27.94" y="20.32" length="middle" rot="R180"/>
+<pin name="SPI_MISO" x="27.94" y="-5.08" length="middle" rot="R180"/>
+<pin name="V_MCUPWR" x="27.94" y="10.16" length="middle" rot="R180"/>
+<pin name="VIO" x="27.94" y="15.24" length="middle" rot="R180"/>
+<pin name="BYPASS" x="-27.94" y="10.16" length="middle"/>
+<pin name="EN_USBFET2" x="5.08" y="38.1" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-38.1" length="middle" rot="R90"/>
+<wire x1="22.86" y1="33.02" x2="-22.86" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="33.02" x2="-22.86" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-33.02" x2="22.86" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-33.02" x2="22.86" y2="33.02" width="0.254" layer="94"/>
+<text x="-20.32" y="27.94" size="1.778" layer="94">&gt;Name</text>
+</symbol>
+<symbol name="SUPPORT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LED_TEST_POINT">
+<wire x1="1.524" y1="-0.508" x2="0.635" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="-0.127" y2="-0.381" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0.508"/>
+<vertex x="0.254" y="0.762"/>
+<vertex x="0.508" y="0"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.254" y="-0.254"/>
+<vertex x="-0.508" y="0"/>
+<vertex x="-0.254" y="-0.762"/>
+</polygon>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10935,6 +11072,18 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="10118193" package="10118193">
+<connects>
+<connect gate="G$1" pin="5V" pad="1"/>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="USB-ESD">
@@ -11807,6 +11956,24 @@ type V526-0, grid 2.5 mm</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="PBS8MTRES" package="PBS8MTRES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RACON8" package="RACON8">
+<connects>
+<connect gate="G$1" pin="1" pad="A1 A2"/>
+<connect gate="G$1" pin="2" pad="B1 B2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="FET-P">
@@ -12667,6 +12834,67 @@ type V526-0, grid 2.5 mm</description>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTN5100">
+<gates>
+<gate name="G$1" symbol="PTN5100" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HVQFN20">
+<connects>
+<connect gate="G$1" pin="BYPASS" pad="19"/>
+<connect gate="G$1" pin="CC1" pad="5"/>
+<connect gate="G$1" pin="CC2" pad="4"/>
+<connect gate="G$1" pin="CC_CTRL1" pad="10"/>
+<connect gate="G$1" pin="CC_ORIENT" pad="9"/>
+<connect gate="G$1" pin="DBGACC_FOUND" pad="6"/>
+<connect gate="G$1" pin="EN_USBFET1" pad="1"/>
+<connect gate="G$1" pin="EN_USBFET2" pad="20"/>
+<connect gate="G$1" pin="EN_USBSRC" pad="3"/>
+<connect gate="G$1" pin="GND" pad="PGND"/>
+<connect gate="G$1" pin="INT_N" pad="13"/>
+<connect gate="G$1" pin="SLV_ADDR" pad="14"/>
+<connect gate="G$1" pin="SPI_CLK_I2C_SCL" pad="11"/>
+<connect gate="G$1" pin="SPI_CS" pad="7"/>
+<connect gate="G$1" pin="SPI_MISO" pad="16"/>
+<connect gate="G$1" pin="SPI_MOSI_I2C_SDA" pad="12"/>
+<connect gate="G$1" pin="VBUS" pad="2"/>
+<connect gate="G$1" pin="VCONN_IN" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="15"/>
+<connect gate="G$1" pin="VIO" pad="18"/>
+<connect gate="G$1" pin="V_MCUPWR" pad="17"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPPORT">
+<gates>
+<gate name="G$1" symbol="SUPPORT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SUPPORT-2MM" package="SUPPORT-2MM">
+<technologies>
+<technology name="">
+<attribute name="SUPPORT" value="true" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_TEST_POINT">
+<gates>
+<gate name="G$1" symbol="LED_TEST_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3.25MM" package="LED_TEST_POINT-3.25MM">
 <technologies>
 <technology name=""/>
 </technologies>
